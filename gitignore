@@ -1,0 +1,92 @@
+# ============================================================
+# Data and model artifacts
+# ============================================================
+data/
+datasets/
+results/**/*.pt
+results/**/*.pth
+results/**/*.ckpt
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.tox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+*.cover
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ============================================================
+# Jupyter / notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Logs and runtime
+# ============================================================
+*.log
+logs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+
+# ============================================================
+# IDEs / editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Secrets / config
+# ============================================================
+.env
+.env.local
+*.pem
+config.local.*

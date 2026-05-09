@@ -1,0 +1,29 @@
+# Python 3.6 — original experimental environment
+# CUDA 8.0, cuDNN 6.0
+
+# Deep learning
+torch==1.4.0
+torchvision==0.5.0
+
+# Hyperparameter optimization
+bayesian-optimization==1.2.0
+
+# Scientific stack
+numpy==1.19.5
+scipy==1.5.4
+scikit-learn==0.24.2
+pandas==1.1.5
+
+# Image processing
+Pillow==8.4.0
+
+# Plotting / EDA
+matplotlib==3.3.4
+seaborn==0.11.2
+
+# Notebooks (optional, only if running the EDA/analysis notebooks)
+jupyter==1.0.0
+ipykernel==5.5.6
+
+# Utilities
+tqdm==4.64.1

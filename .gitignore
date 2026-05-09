@@ -1,0 +1,34 @@
+# Datasets
+dataset_kfold/
+maize-dataset/
+data/
+*.csv
+*.tsv
+
+# Modelos treinados
+results/
+Result-Test/
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs e outputs
+*.log
+runs/
+wandb/
+mlruns/
